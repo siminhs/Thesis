@@ -1,0 +1,5 @@
+# Abstract
+
+Numerical simulations are traditionally the most popular tools for studying the physics of galaxy formation. This is mainly due to the complex and non-linear equations governing such systems, preventing exact analytical solutions. However, simulation models are computationally expensive, and simulating a single galactic system can take several months. In the era of machine learning and artificial intelligence, it is not hard to imagine that simulation models can be supplemented with powerful machine learning algorithms to reduce their computational complexity.
+This is precisely what has been investigated in the present dissertation. We build a learning algorithm that takes a set of images representing some intrinsic properties of galaxies and outputs a new set of images representing galaxies' observational
+properties. To achieve this goal, we use convolutional neural networks, and in particular, the U-Net architecture. It will be shown that our deep learning method successfully generates accurate images in a time-efficient manner.
